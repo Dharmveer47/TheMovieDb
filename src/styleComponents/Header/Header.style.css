@@ -1,0 +1,33 @@
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+.searchbar{
+    border-radius: 13px;
+    width: 50%;
+
+}
+heading1,heading2{
+    text-align: center;
+}
+input{
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    caret-color: rgb(51, 51, 51);
+}
+@media screen and (max-width: 576px) {
+    .searchbar{
+        width: 95%;
+    }
+    input{
+        width: 90%;
+    }
+    
+}

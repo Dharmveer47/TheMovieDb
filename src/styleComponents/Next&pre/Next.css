@@ -1,0 +1,35 @@
+.Main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(73, 89, 90, 0.479);
+}
+.Smain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .Main,
+    .Npre,
+    .Nnext {
+        height: 25px;
+
+        display: flex;
+        align-items: center;
+
+        box-sizing: border-box;
+    }
+    .Main{
+        width: 90%;
+    }
+}
+.NPbtn {
+    transform: translate(-5%);
+}
